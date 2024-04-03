@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog-post {
+    width: calc(33% - 20px); /* Example for 3 posts in a row */
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.post-content {
+    /* Style your post content here */
+}
